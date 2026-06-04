@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; === Add "To PNG" for PSD files ===
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.psd\shell\To PNG]
+@="To PNG"
+"Icon"="cmd.exe"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.psd\shell\To PNG\command]
+@="\"C:\\PSD to PNG\\psd-to-png.bat\" \"%1\""

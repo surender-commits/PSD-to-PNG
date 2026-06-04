@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; === Remove "To PNG" for PSD files ===
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.psd\shell\To PNG]
+@="To PNG"
+"Icon"="cmd.exe"
